@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/growing-plant/static/css/main.9f908acd.css",
-    "main.js": "/growing-plant/static/js/main.a112ce06.js",
+    "main.js": "/growing-plant/static/js/main.5e6c5731.js",
     "index.html": "/growing-plant/index.html",
     "main.9f908acd.css.map": "/growing-plant/static/css/main.9f908acd.css.map",
-    "main.a112ce06.js.map": "/growing-plant/static/js/main.a112ce06.js.map"
+    "main.5e6c5731.js.map": "/growing-plant/static/js/main.5e6c5731.js.map"
   },
   "entrypoints": [
     "static/css/main.9f908acd.css",
-    "static/js/main.a112ce06.js"
+    "static/js/main.5e6c5731.js"
   ]
 }

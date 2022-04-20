@@ -1,11 +1,13 @@
 import "./Plant.scss"
 
-import React, { useRef, useEffect } from "react";
-import { useGLTF, useAnimations } from "@react-three/drei";
+import React, { useRef, useEffect } from "react"
+import { useGLTF, useAnimations } from "@react-three/drei"
+
+import PlantGLTF from "../../models/plant.gltf"
 
 export default function Model(props) {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("/growing-plant/plant.gltf");
+  const { nodes, materials, animations } = useGLTF(PlantGLTF);
   const { actions } = useAnimations(animations, group);
 	
   return (
@@ -136,6 +138,6 @@ export default function Model(props) {
   );
 }
 
-useGLTF.preload("/growing-plant/plant.gltf");
+useGLTF.preload(PlantGLTF);
 
 
